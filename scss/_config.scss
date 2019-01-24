@@ -1,0 +1,341 @@
+$primary-color: #5d0b11;
+$secondary-color: #d2a202;
+$primary-background-color: #f9f9f9;
+$secondary-background-color: #ffffff;
+$primary-text-color: #ffffff;
+$secondary-text-color: #3b0a0d;
+
+$primary-font: roboto;
+
+//MEDIA QUERIES
+//MEDIUM DESKPTOPS
+@media (min-width:993px) and (max-width: 1200px) {
+
+    // HOME PAGE CSS
+        //Banner CSS
+        #home-hero-image {
+            
+            .jumbotron {
+              // background-color: $primary-color;
+              background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../assets/imgs/Home_Page_Banner_900.png);
+              // background-size: cover; 
+              background-size: 100% 100%; 
+              background-repeat: no-repeat;
+              height: 100%;
+              color: $primary-text-color;
+              text-align: center;
+              padding: 40px auto;
+              a {
+                background-color: darken($secondary-color, 5%);
+                border: none;
+              }
+            }
+          }
+// ABOUT PAGE CSS
+#about-hero-image{
+  .jumbotron {
+    // background-color: $primary-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/About_Us_Banner_1200.png) !important;
+    // background-size: cover; 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 90px 100px 10px 100px !important;
+
+    a {
+      background-color: darken($secondary-color, 5%);
+      border: none;
+    }
+    
+  }
+}
+
+}
+
+// TABLETS
+@media (min-width:768px) and (max-width: 992px){
+  .container{
+    max-width: 100%;
+  }
+
+  //NAVBAR CSS
+  .navbar {
+    background-color: $primary-color;
+    color: $primary-text-color;
+  
+    //navbar brand
+    img {
+      width: 150px;
+    }
+    .navbar-toggler-icon{
+      color: $primary-text-color;
+    }
+    a {
+      color: $primary-text-color;
+    }
+  }
+    // HOME PAGE CSS
+        //Banner CSS
+        #home-hero-image {
+            .jumbotron {
+              // background-color: $primary-color;
+              background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url(../assets/imgs/Home_Page_Banner_700.png) !important;
+              // background-size: cover; 
+              background-size: 100% 100%; 
+              background-repeat: no-repeat;
+              height: 100%;
+              color: $primary-text-color;
+              text-align: center;
+              padding: 30px;
+              a {
+                background-color: darken($secondary-color, 5%);
+                border: none;
+              }
+            }
+          }
+// ABOUT PAGE CSS
+#about-hero-image{
+  .jumbotron {
+    // background-color: $primary-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/About_Us_Banner_900.png) !important;
+    // background-size: cover; 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 50px 100px 10px 100px !important;
+
+    a {
+      background-color: darken($secondary-color, 5%);
+      border: none;
+    }
+    
+  }
+}
+          //FOOTER CSS
+#footer{
+  background-color: $primary-color;
+  color: $primary-text-color;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+
+  #footer-left{
+    margin: auto 0;
+  }
+  #footer-middle{
+    margin: auto 0;
+    text-align: center;
+  }
+  #footer-right{
+    text-align: left;
+    max-width: 100%;
+    padding: 0;
+    
+  }
+  p{
+    display: block;
+    margin: 0;
+  }
+  i{
+    padding: 10px
+  }
+}
+}
+
+//SMARTPHONES
+@media(max-width:767px){
+  .container{
+    max-width: 97%;
+  }
+  .card{
+    margin:10px !important;
+  }
+  .jumbotron{
+    padding: 20px;
+  }
+  //NAVBAR CSS
+  .navbar {
+    padding: 0;
+    background-color: $primary-color;
+    color: $primary-text-color;
+    text-align: center;
+    //navbar brand
+    img {
+      width: 150px;
+    }
+    .navbar-toggler-icon{
+      color: $primary-text-color;
+    }
+    a {
+      color: $primary-text-color;
+      border: solid 1px lighten($primary-color, 10%);
+    }
+  }
+// ABOUT PAGE CSS
+#about-hero-image{
+  .jumbotron {
+    // background-color: $primary-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/About_Us_Banner_700.png) !important;
+    // background-size: cover; 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 50px 100px 10px 100px !important;
+
+    a {
+      background-color: darken($secondary-color, 5%);
+      border: none;
+    }
+    
+  }
+}
+ 
+//SERVICES PAGE CSS
+#services-hero-image{
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/Services_Banner.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 80px 100px 10px 100px !important;
+    a {
+      background-color: darken($secondary-color, 5%);
+      border: none;
+    }
+  }
+}
+
+// CONTACT PAGE CSS
+#contact-page{
+  button{
+    display:block !important;
+    float:none !important;
+    margin: 20px auto !important;
+  }
+}
+
+//FOOTER CSS
+#footer{
+  background-color: $primary-color;
+  color: $primary-text-color;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+
+  #footer-left{
+    display:none;
+  }
+  #footer-middle{
+    margin: auto 0;
+    text-align: center;
+    padding: 20px;
+  }
+  #footer-right{
+    text-align: center !important;
+    max-width: 100%;
+    padding: 0;
+    
+  }
+  p{
+    display: block;
+    margin: 0;
+  }
+  i{
+    padding: 10px
+  }
+}
+}
+
+//SMALLER SMARTPHONES
+@media (max-width:576px){
+ // HOME PAGE CSS
+        //Banner CSS
+        #home-hero-image {
+          .jumbotron {
+            // background-color: $primary-color;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+              url(../assets/imgs/Home_Page_Banner_500.png) !important;
+            // background-size: cover; 
+            background-size: 100% 100%; 
+            background-repeat: no-repeat;
+            height: 100%;
+            color: $primary-text-color;
+            text-align: center;
+            padding: 30px;
+            a {
+              background-color: darken($secondary-color, 5%);
+              border: none;
+            }
+          }
+        }
+
+// ABOUT PAGE CSS
+        #about-hero-image{
+          .jumbotron {
+            // background-color: $primary-color;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+              url(../assets/imgs/About_Us_Banner_500.png) !important;
+            // background-size: cover; 
+            background-size: 100% 100%; 
+            background-repeat: no-repeat;
+            height: 100%;
+            color: $primary-text-color;
+            text-align: center;
+            padding: 150px 100px 10px 100px !important;
+        
+            a {
+              background-color: darken($secondary-color, 5%);
+              border: none;
+            }
+            
+          }
+        }
+
+//SERVICES PAGE CSS
+#services-hero-image{
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/Services_Banner.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 60px 100px 10px 100px !important;
+    a {
+      background-color: darken($secondary-color, 5%);
+      border: none;
+    }
+  }
+}
+
+
+// CUSTOMERS PAGE CSS
+// banner
+#customers-hero-image{
+  .jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../assets/imgs/Customers_Banner_Smartphones.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100%;
+    color: $primary-text-color;
+    text-align: center;
+    padding: 70px 100px 10px 100px !important;
+  }
+}
+}

@@ -1,0 +1,329 @@
+@media (min-width: 993px) and (max-width: 1200px) {
+  #home-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Home_Page_Banner_900.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px auto; }
+    #home-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #about-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/About_Us_Banner_1200.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 100px 10px 100px !important; }
+    #about-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 100%; }
+  .navbar {
+    background-color: #5d0b11;
+    color: #ffffff; }
+    .navbar img {
+      width: 150px; }
+    .navbar .navbar-toggler-icon {
+      color: #ffffff; }
+    .navbar a {
+      color: #ffffff; }
+  #home-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Home_Page_Banner_700.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px; }
+    #home-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #about-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/About_Us_Banner_900.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 100px 10px 100px !important; }
+    #about-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #footer {
+    background-color: #5d0b11;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%; }
+    #footer #footer-left {
+      margin: auto 0; }
+    #footer #footer-middle {
+      margin: auto 0;
+      text-align: center; }
+    #footer #footer-right {
+      text-align: left;
+      max-width: 100%;
+      padding: 0; }
+    #footer p {
+      display: block;
+      margin: 0; }
+    #footer i {
+      padding: 10px; } }
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 97%; }
+  .card {
+    margin: 10px !important; }
+  .jumbotron {
+    padding: 20px; }
+  .navbar {
+    padding: 0;
+    background-color: #5d0b11;
+    color: #ffffff;
+    text-align: center; }
+    .navbar img {
+      width: 150px; }
+    .navbar .navbar-toggler-icon {
+      color: #ffffff; }
+    .navbar a {
+      color: #ffffff;
+      border: solid 1px #8b1019; }
+  #about-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/About_Us_Banner_700.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 100px 10px 100px !important; }
+    #about-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #services-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Services_Banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 100px 10px 100px !important; }
+    #services-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #contact-page button {
+    display: block !important;
+    float: none !important;
+    margin: 20px auto !important; }
+  #footer {
+    background-color: #5d0b11;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%; }
+    #footer #footer-left {
+      display: none; }
+    #footer #footer-middle {
+      margin: auto 0;
+      text-align: center;
+      padding: 20px; }
+    #footer #footer-right {
+      text-align: center !important;
+      max-width: 100%;
+      padding: 0; }
+    #footer p {
+      display: block;
+      margin: 0; }
+    #footer i {
+      padding: 10px; } }
+
+@media (max-width: 576px) {
+  #home-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Home_Page_Banner_500.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px; }
+    #home-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #about-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/About_Us_Banner_500.png) !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 100px 10px 100px !important; }
+    #about-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #services-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Services_Banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 100px 10px 100px !important; }
+    #services-hero-image .jumbotron a {
+      background-color: #b98f02;
+      border: none; }
+  #customers-hero-image .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Customers_Banner_Smartphones.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 100px 10px 100px !important; } }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column; }
+
+#main {
+  flex: 1; }
+
+.navbar {
+  background-color: #5d0b11;
+  color: #ffffff; }
+  .navbar img {
+    width: 150px; }
+  .navbar .navbar-toggler-icon {
+    color: #ffffff; }
+  .navbar a {
+    color: #ffffff; }
+
+#home-hero-image .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Home_Page_Banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #ffffff;
+  text-align: center; }
+  #home-hero-image .jumbotron a {
+    background-color: #b98f02;
+    border: none; }
+
+#home-page-grid {
+  padding: 40px;
+  text-align: center; }
+  #home-page-grid h2,
+  #home-page-grid h4 {
+    color: #5d0b11; }
+  #home-page-grid i {
+    font-size: 3rem;
+    padding: 20px;
+    color: #b98f02; }
+
+#about-hero-image .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/About_Us_Banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 100px 10px 100px; }
+  #about-hero-image .jumbotron a {
+    background-color: #b98f02;
+    border: none; }
+
+#about-page-text h4 {
+  color: #5d0b11; }
+
+#services-hero-image .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/Services_Banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 100px 10px 100px; }
+  #services-hero-image .jumbotron a {
+    background-color: #b98f02;
+    border: none; }
+
+#services-page-text {
+  padding-bottom: 30px; }
+  #services-page-text h4 {
+    display: block;
+    color: #5d0b11;
+    padding: 20px 0 5px 0; }
+
+#customers-hero-image .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/imgs/customers_banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 100px 10px 100px; }
+
+.customer-section {
+  padding: 20px;
+  margin: 40px; }
+  .customer-section .row {
+    text-align: center; }
+  .customer-section .card-header {
+    background-color: #5d0b11;
+    color: #ffffff;
+    margin-bottom: 10px; }
+  .customer-section h5 {
+    color: #5d0b11; }
+
+#contact-page .jumbotron {
+  background: none; }
+
+#contact-page input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: solid 1px #d2a202;
+  border-radius: 5px; }
+
+#contact-page textarea {
+  display: block;
+  width: 100%;
+  border: solid 1px #d2a202;
+  border-radius: 5px; }
+
+#contact-page #form-button {
+  background-color: #d2a202;
+  border: none;
+  margin: 20px 0;
+  float: right; }
+
+#footer {
+  background-color: #5d0b11;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  width: 100%; }
+  #footer #footer-left {
+    margin: auto 0; }
+  #footer #footer-middle {
+    margin: auto 0;
+    text-align: center; }
+  #footer #footer-right {
+    text-align: left; }
+  #footer p {
+    display: block;
+    margin: 0; }
+  #footer i {
+    padding: 10px; }

@@ -1,0 +1,11 @@
+{
+  "name": "mfatechnologies",
+  "version": "1.0.0",
+  "description": "This is a reworked version of mfatech.ca to include improved design and features",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o app/css --recursive"
+  },
+  "author": "Zakir Faizal",
+  "license": "ISC"
+}
